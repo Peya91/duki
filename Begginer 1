@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+	  background-color: lightgrey;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h2>ONLINE PRODAVNICA VATROGASNE OPREME</h2>      
+    <p><i>misija - vizija - vrednost</i></p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Početna</a></li>
+        <li><a href="#">Proizvodi</a></li>
+        <li><a href="#">Delatnost</a></li>
+        <li><a href="#">Prodavnice</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Tvoj profil</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Ubaci u korpu</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">APARAT ZA GAŠENJE POŽARA tipa S6-A <b>(6.300,00 RSD)</b></div>
+        <div class="panel-body"><img src="http://www.office1.rs/artikli%5C3301874000530%5C3301874000530.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Na svakih kupljenih 5 aparata za gašenje požara tipa S6-A na poklon dobijate šesti aparat za gašenje požara tipa S6-A</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">ZIDNI HIDRANT <b>(11.200,00 RSD)</b></div>
+        <div class="panel-body"><img src="http://www.deltaterm.com/slike/ART_594_1.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Na svakih kupljenih dva zidna ormana sa hidrantskom opremom na poklon se dobija još jedan zidni hidrant sa opremom(hromiran)</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">VATROGASNE LESTVE (trodelne) <b>(9.400,00 RSD)</b></div>
+        <div class="panel-body"><img src="http://munk.ba/wp-content/uploads/2015/06/vatrogasne-merdevine-tri-dijela.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Kupovinom trodelnih vatrogasnih lestava ostvarujete popust za kupovinu dvodelnih vatrogasnih lestava u iznosu od 50% od ukupne cene</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">MLAZNICA ZA GAŠENJE POŽARA sa zasunom <b>(4.000,00 RSD)</b></div>
+        <div class="panel-body"><img src="http://www.smit-commerce.hr/aploads/artikli/mlaznica-06554.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Popust se ne odnosi na pojedinačnu kupovinu hidrantske opreme</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">MLAZNICA ZA POSTAVLJANJE VODENOG ŠTITA <b>(5.200,00 RSD)</b></div>
+        <div class="panel-body"><img src="http://vatropromet.com/images/mlaznice/Mlaznica_vodene_zavjese_fi_52.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Kupovinom dve mlaznice za postavljanje vodenog štita ostvarujete kupon za kupovinu bilo kog proizvoda iz našeg asortimana u vrednosti od 5.000,00 RSD</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">VATROGASNO CREVO <b>(4.800,00 RSD)</b></div>
+        <div class="panel-body"><img src="http://www.metalopromet-m.com/img/articles/vatrcrevo2.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Popust se ne odnosi na pojedinačnu kupovinu hidrantske opreme</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<h6><b>*Izražene cene se odnose na veleprodaju. Kupovinom u maloprodajnim objektima cena proizvoda je veća za 10% po jediničnoj meri (kom).</b></h6>
+
+<footer class="container-fluid text-center"> 
+  <form class="form-inline">Kupovina:
+    <input type="email" class="form-control" size="50" placeholder="Email Adresa">
+    <button type="button" class="btn btn-danger">Prijavi se</button>
+  </form>
+ <p style="text-align:left"><i>Copyright (C) Online prodavnica vatrogasne opreme 2016.</i></p> 
+</footer>
+
+</body>
+</html>
